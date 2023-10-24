@@ -3,8 +3,9 @@ import styles from './header.module.css';
 import { AiOutlinePlusCircle } from 'react-icons/ai';
 import { useState } from 'react';
 
-export function Header({ handleAddTask }) {
+export function Header({ handleAddTask}) {
   const [title, setTitle] = useState('');
+
 
   function handleSubmit(event) {
     event.preventDefault();
